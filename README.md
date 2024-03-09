@@ -1,4 +1,13 @@
+Previews, some notes of the cofig files, and lastly settings changes using GUI
 
+
+# Previews 
+![empty](./images/preview_0.png)
+![max](./images/preview_max.png)
+![split](./images/preview_split_2.png)
+
+
+# .config
 ## System Information
 OS: Xubuntu<br>
 DE: xfce 4.16<br>
@@ -14,6 +23,8 @@ Fancy bash prompt: [synth-shell](https://github.com/andresgongora/synth-shell)
 - my genmon id in `gtk.css` will be different from yours. To check its id, open `panel preferences > items` and hover over the spotify genmon
 - the `ascii.txt` inside `.config/neofetch` uses terminal color 6 which is purple for me. Change it as you like 
 - My wallpapers are 1920 x1080 and mostly fromm [wallhaven](https://wallhaven.cc)
+
+# XFCE Settings (GUI)
 
 ## Panels 
 Set your own panel bg colors (dont set panel bacnground color in  `gtk.css` unless you want all panels to have the same bg color)
@@ -52,7 +63,19 @@ Workspace Margins to not overlap panel because my panel is not touching the top
 
 ## Other settings changes
 
-Reduced window decoration opacity 
+**1. Reduced window decoration opacity <br>**
 - Window Managaer Tweaks > Composition > Opacity of window decoration
-mine is down to about 50%
+- Lower it to your liking. Mine is at ~50%.
 
+<br><br>
+**2. Clock Format<br>**
+- Right click on the clock > properties. Format: Custom Format <br>
+
+<br><br>
+**3. Format including the spaces at the ends: (copy the whole line below) <br>**
+- &nbsp; %d %b • %H:%M &nbsp;
+
+<br><br>
+**4. Different wallpaper for each workspace**
+- right click on the desktop > Desktop settings. Uncheck  'apply to all workspaces'.
+- Go to each workspace and set desired wallpaper for each.
