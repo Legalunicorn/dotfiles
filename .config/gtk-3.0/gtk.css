@@ -1,0 +1,135 @@
+.xfce4-panel {
+    border-radius: 10px;
+  }
+  .xfce4-panel .tasklist .toggle :checked {
+    border-radius: 10px;
+  }
+  .tasklist button:checked {
+    /* idk why border 0 is needed to have border-bottom here, just leave it  */
+    border: 0 solid #ccc0c0;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    border-bottom: 3px solid #e696f7;
+  
+  }
+  
+  p .flat,
+  .toggle {
+    font-family: 'JetBrainsMono Nerd Font';
+    font-size: 16px;
+    padding: 4px;
+  }
+  
+  .flat:hover,
+  .toggle:hover {
+    font-family: 'JetBrainsMono Nerd Font';
+    font-size: 16px;
+    padding: 4px;
+  }
+  
+  .flat:checked,
+  .toggle:checked{
+    font-family: 'JetBrainsMono Nerd Font';
+    font-size: 16px;
+    border-bottom: 3px solid rgb(194, 236, 215);
+    padding: 4px;
+  }
+  
+  
+  /* Workspace switcher */
+  #xfce-panel-toggle-button{
+    color:rgba(207, 193, 193, 0.151);
+  }
+  #xfce-panel-toggle-button:checked{
+    background-color: #eeeeee00;
+    font-size: 22px;
+    border:0;
+  }
+  
+  #xfce-panel-toggle-button:nth-child(1):checked{
+    color:#2fa543;
+  }
+  #xfce-panel-toggle-button:nth-child(2):checked{
+    color:rgb(47, 84, 165);
+  }
+  #xfce-panel-toggle-button:nth-child(3):checked{
+    color:#b533d6;
+  }
+  #xfce-panel-toggle-button:nth-child(4):checked{
+    color:#c7b622;
+  }
+  
+  /* time */
+  #clock-button {
+    color: #f2b7f8;
+    background-color: #902f8d;
+    padding: 6px;
+    margin: 8px 0 8px 12px;
+    border-radius: 8px;
+  
+  }
+  
+  /* genmon spotify */
+  #genmon-7 .genmon_value {
+    color: #f5f4f3;
+    font-family: 'JetBrainsMono Nerd Font';
+    font-weight: bolder;
+    background-color: #318b40;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 8px 5px 8px 0px;
+    padding: 6px 10px;
+  
+  }
+  
+  #genmon-7 .genmon_imagebutton,#genmon-7 .genmon_image {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #318b40;
+    margin: 8px 0 8px 1px;
+    padding: 1px 6px;
+  }
+  
+  
+  /* Audio */
+  #pulseaudio-button {
+    background-color: #902f2f;
+    border-radius: 8px;
+    padding: 6px 10px;
+    margin: 8px 13px;
+    color: rgba(233, 63, 129, 1);
+    color: #e89b9b;
+  }
+  
+  
+  /* Notification bell*/
+  #xfce4-notification-plugin {
+    background-color: #906b2f;
+    border-radius: 8px;
+    padding: 6px;
+    margin: 8px 5px 8px 1px;
+    color: #e2d094;
+  }
+  
+  
+  /*Battery Pluggin*/
+  #xfce4-power-manager-plugin {
+    background-color: rgba(20, 107, 78, 1);
+    background-color: #2f9061;
+    border-radius: 8px;
+    padding: 6px;
+    margin: 8px 5px;
+    color: #94e2d5;
+    color: #94e2c4;
+  }
+  
+  
+  /*systray*/
+  #sn-button{
+    background-color: rgba(20, 70, 107, 1);
+    border-radius: 8px;
+    padding: 6px;
+    margin: 8px 2px 8px 5px;
+    color: #94e2d5;
+    
+  }
