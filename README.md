@@ -1,4 +1,4 @@
-Previews, some notes of the cofig files, and lastly settings changes using GUI
+Previews, some notes of the config files, and lastly settings changes using GUI
 
 
 # Previews 
@@ -26,6 +26,8 @@ Fancy bash prompt: [synth-shell](https://github.com/andresgongora/synth-shell)
 
 # XFCE Settings (GUI)
 
+I have already uploaded my `.config/xfce4` files but you can reference this if you like.
+
 ## Panels 
 Set your own panel bg colors (dont set panel bacnground color in  `gtk.css` unless you want all panels to have the same bg color)
 
@@ -52,10 +54,13 @@ panel 2 items
 ## Workspaces
 Unicode character: ●
 
-Workspace Margins to not overlap panel because my panel is not touching the top
+Workspace Margins (so that windows are blocked by the panel above)
 
 - Top margin: 58
 - Other sides: 5
+
+
+Change the numbers to fit your desktop if your desktop resolution is different from mine
 
 ---
 
@@ -63,19 +68,17 @@ Workspace Margins to not overlap panel because my panel is not touching the top
 
 ## Other settings changes
 
-**1. Reduced window decoration opacity <br>**
+**1. Reduced window decoration opacity** <br>
 - Window Managaer Tweaks > Composition > Opacity of window decoration
 - Lower it to your liking. Mine is at ~50%.
-
 <br><br>
+
 **2. Clock Format<br>**
-- Right click on the clock > properties. Format: Custom Format <br>
-
-<br><br>
-**3. Format including the spaces at the ends: (copy the whole line below) <br>**
+- Right click on the clock > properties. Format: Custom Format 
+- Format including the spaces at the ends: (copy the whole line below) 
 - &nbsp; %d %b • %H:%M &nbsp;
-
 <br><br>
+
 **4. Different wallpaper for each workspace**
 - right click on the desktop > Desktop settings. Uncheck  'apply to all workspaces'.
 - Go to each workspace and set desired wallpaper for each.

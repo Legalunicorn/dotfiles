@@ -1,0 +1,6 @@
+Command=/home/hiroc/Downloads/xfce4-genmon-scripts/spotify-panel.sh
+UseLabel=0
+Text=spotify
+UpdatePeriod=30000
+Font=Noto Sans Bold 9
+
